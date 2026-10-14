@@ -1,5 +1,15 @@
 # @mastra/react
 
+## 1.10.1-alpha.2
+
+### Patch Changes
+
+- Fixed `useChat` leaving a pending user message in the chat after a send fails with thread signals enabled. The optimistic message is now removed when the server never accepted it, so retrying shows the message once instead of a stuck pending copy plus the retried one. ([#26975](https://github.com/mastra-ai/mastra/pull/26975))
+
+- Updated dependencies [[`2362057`](https://github.com/mastra-ai/mastra/commit/2362057cedc6b90b9fd71c424df40eedf3a4ecf3)]:
+  - @mastra/core@1.78.0-alpha.2
+  - @mastra/client-js@1.54.1-alpha.2
+
 ## 1.10.1-alpha.1
 
 ### Patch Changes

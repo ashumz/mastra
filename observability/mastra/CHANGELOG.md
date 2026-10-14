@@ -1,5 +1,14 @@
 # @mastra/observability
 
+## 1.20.1-alpha.1
+
+### Patch Changes
+
+- Fixed cost estimates for Amazon Bedrock India inference profiles (`in.` prefix), which previously reported `no_matching_model`. Fixes #26387. ([#26982](https://github.com/mastra-ai/mastra/pull/26982))
+
+- Updated dependencies [[`2362057`](https://github.com/mastra-ai/mastra/commit/2362057cedc6b90b9fd71c424df40eedf3a4ecf3)]:
+  - @mastra/core@1.78.0-alpha.2
+
 ## 1.20.1-alpha.0
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mastra/core
 
+## 1.78.0-alpha.2
+
+### Patch Changes
+
+- Fixed Amazon Bedrock India inference profiles (`in.` prefix, e.g. `in.anthropic.claude-sonnet-5`) sending `temperature` to models that reject it, which returned a 400. They now resolve model capabilities like the other geography prefixes. Fixes #26387. ([#26982](https://github.com/mastra-ai/mastra/pull/26982))
+
 ## 1.78.0-alpha.1
 
 ### Minor Changes
